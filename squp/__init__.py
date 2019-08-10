@@ -7,5 +7,5 @@ Version: 0.0.1
 
 # Starts the environment, import must happen within this method to prevent execution on import
 def start():
-    import InventoryGui
+    from . import InventoryGui
     InventoryGui.main()

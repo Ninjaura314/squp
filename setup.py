@@ -5,7 +5,7 @@ def readme():
             return f.read()
 
 setup(name='squp',
-      version='0.1',
+      version='0.1.1',
       description='A backend engine for Squarespace that uses splinter/selenium for automated data entry',
       long_description=readme(),
       classifiers=[
@@ -42,7 +42,7 @@ setup(name='squp',
             'ftfy',
             'lxml',
             'pillow',
-            'PyAutoGui',
+            'pyautogui',
             'pypiwin32',
             'pywebview',
             'pywin32',
