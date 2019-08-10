@@ -87,7 +87,11 @@ class EmailSending():
             # Create the message to be send
             msg = MIMEMultipart()
             # Use the information for this brand to create the body of the message
-            body = t.substitute(COMPANY_NAME=c)
+            body = t.substitute(COMPANY_NAME=c,
+                                DEVELOPER_NAME=Info.DEVELOPER_NAME,
+                                DEVELOPER_POSITION=Info.DEVELOPER_POSITION,
+                                THIS_COMPANY=Info.THIS_COMPANY,
+                                COMPANY_LOCATION=Info.COMPANY_LOCATION)
             # Set the "From" address
             msg['From'] = Info.LOGIN
             # Set the "To" address

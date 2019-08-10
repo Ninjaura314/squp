@@ -25,6 +25,10 @@ class Info(object):
     STORE_PAGE = 'STORE_PAGE_URL_HERE'
     HOME_PAGE = 'ADMIN_PAGE_URL_HERE'
     ORDER_PAGE = 'ORDER_PAGE_URL_HERE'
+    DEVELOPER_NAME = 'DEVELOPER_NAME_HERE'
+    THIS_COMPANY = 'COMPANY_NAME_HERE'
+    DEVELOPER_POSITION = 'DEVELOPER_POSITION_HERE'
+    COMPANY_LOCATION = 'COMPANY_LOCATION_HERE'
     # Locations for various elements
     SCRAPER_DIR = 'DIR_TO_SCRAPERS_HERE' #Not needed for distribution
     SPIDER_DIR = 'DIR_TO_SPIDERS_HERE' #Not needed for distribution
@@ -32,7 +36,10 @@ class Info(object):
     BASE_DIR = os.getcwd()
     DOWNLOADS_DIR = 'USER_DOWNLOADS_DIR_HERE'
     PYTHON_DIRS = [os.path.dirname(sys.executable)]
-    DOCKER_URL = os.environ['DOCKER_HOST'].split('//')[1].split(':')[0]
+    try:
+        DOCKER_URL = os.environ['DOCKER_HOST'].split('//')[1].split(':')[0]
+    except:
+        DOCKER_URL = '10.0.75.0'
     # Loading messages
     messages = ['A computer will do what you tell it to do, but that may be much different from what you had in mind.',
                 'Do you suffer from ADHD? Me neith- oh look a bunny... What was I doing again? Oh, right. Here we go.',

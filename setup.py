@@ -51,4 +51,8 @@ setup(name='squp',
             'splinter',
             'urllib3',
       ],
+      include_package_data=True,
+      entry_points={
+          'console_scripts': ['squp=squp.command_line:main'],
+      },
       zip_safe=False)

@@ -3713,9 +3713,7 @@ class ItemStockUpdatesThread(threading.Thread):
         # Hide the app wait window
         # app.hideSubWindow('apply_wait_indicator')
 
-
-# Lets this program run by itself
-if __name__ == '__main__':
+def main():
     # Check the overall program for updates
     # check_for_updates()
     
@@ -3731,7 +3729,7 @@ if __name__ == '__main__':
     # Find all of the logs for this month
     this_months_logs = glob.glob(month + '_*_' + year + '*.log')
     # Create the string for the last month
-    lm = str(int(month)-1)
+    lm = str(int(month) - 1)
     if int(lm) < 10:
         lm = '0' + lm
     if int(lm) == 0:
@@ -3783,3 +3781,7 @@ if __name__ == '__main__':
     # start_thread.start()
     # Start the GUI
     start_window()
+    
+# Lets this program run by itself
+if __name__ == '__main__':
+    main()

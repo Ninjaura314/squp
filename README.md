@@ -26,4 +26,7 @@ This program has been designed to do the following:
 3. Finally, if you need to add new fields, modify the interface.py file between the necessary comments to rename the fields to what you need them to be
 
 
-*Note: This program was originally designed to upload clothing items, so some fields may not be applicable to your item(s) or store(s). I've documented the code as well as I can, and have put small notes where personal modification would be necessary if your store is not currently compatible with this layout. If you have any questions or would like some better explanation/assistance on the process of adapting this program to your store, feel free to contact me either through GitHub or through my email.*
+*Note: This program was originally designed to upload clothing items, so some fields may not be applicable to your item(s) or store(s).*
+*I've documented the code as well as I can, and have put small notes where personal modification would be necessary if your store is not currently compatible with this layout.*
+*This includes the automated email sending, see companyemail.txt for the base template I used and make changes as needed.*
+*If you have any questions or would like some better explanation/assistance on the process of adapting this program to your store, feel free to contact me either through GitHub or through my email.*
