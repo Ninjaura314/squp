@@ -2,7 +2,7 @@
 interface.py
 Version: 1.0.2
 Author: Jonathan Hoyle
-Product Name: SqUp^2 (Squarespace Uploading and Scraping for Crazy Productivity, pronounced "Scoop Squared")
+Product Name: SqUp (Squarespace Uploader, pronounced "Scoop")
 Description:
     An artificial intelligence agent that adds, updates, removes, and otherwise manages information previously
         entered onto a Squarespace storefront.
@@ -1528,7 +1528,10 @@ def updateStocks(name):
                 SyS.slp(1)
                 qty = WebDriverWait(browser.driver, 3).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, 'div.sqs-basic-check')))
-                qty.click()
+                try:
+                    qty.click()
+                except:
+                    SpS.move_and_click(qty)
         elif stock_ins[i].text != '0' and size_ins[i]['value'] not in cd[colors_in_order[i]]:
             # Click the stock to bring up the pop-up
             stock_ins[i].click()
