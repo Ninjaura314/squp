@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# SqUp 0.1.7
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+SqUp is a data entry automation engine designed for Squarespace ecommerce websites
 
 ## Commands
 

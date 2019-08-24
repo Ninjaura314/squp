@@ -26,6 +26,9 @@ Planned or Possible:
 
 Note that for references/outside sources, all exterior code and material belongs to their respective owners
 '''
+
+#TODO: Set up command line utilities for different methods here (i.e. given json/name, do this command)
+
 # ---------------------- BEGIN IMPORTS ----------------------
 
 # noinspection PyUnresolvedReferences
