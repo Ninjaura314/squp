@@ -1,4 +1,4 @@
-'''
+"""
 interface.py
 Version: 1.0.2
 Author: Jonathan Hoyle
@@ -25,7 +25,10 @@ Planned or Possible:
         + Very late-development stuff
 
 Note that for references/outside sources, all exterior code and material belongs to their respective owners
-'''
+"""
+
+__version__ = "0.1.7"
+
 # ---------------------- BEGIN IMPORTS ----------------------
 
 # noinspection PyUnresolvedReferences
