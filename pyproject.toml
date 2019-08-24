@@ -1,0 +1,21 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "squp"
+author = "Jonathan Hoyle"
+author-email = "jonathanhoyle314@gmail.com"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
+[tool.poetry]
+name = "squp"
+version = "0.1.7"
+description = "A backend engine for Squarespace that uses splinter/selenium for automated data entry"
+license = "MIT"
+authors = [
+    "Jonathan Hoyle <jonathanhoyle314@gmail.com>"
+]
+readme = "README.md"
+repository = "https://github.com/Ninjaura314/squp"
+keywords = ['ecommerce','automation','web','splinter','selenium','squarespace']
