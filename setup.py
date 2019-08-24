@@ -1,11 +1,11 @@
 from setuptools import setup
-
+# TODO: Fix the fact that lib files aren't transferring at all, just __init__.py and command_line.py
 def readme():
       with open('README.md') as f:
             return f.read()
 
 setup(name='squp',
-      version='0.1.3',
+      version='0.1.6',
       description='A backend engine for Squarespace that uses splinter/selenium for automated data entry',
       long_description=readme(),
       classifiers=[
