@@ -3760,7 +3760,10 @@ def main():
         # For all except the latest log
         for i in range(len(this_months_logs) - 1):
             # Delete the log
-            os.remove(this_months_logs[i])
+            try:
+                os.remove(this_months_logs[i])
+            except:
+                pass
         # For all except the latest json
         for i in range(len(this_months_jsons) - 1):
             # Delete the json
