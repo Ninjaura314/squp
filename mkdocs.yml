@@ -1,5 +1,6 @@
 site_name: SqUp
 nav:
   - Home: index.md
+  - GUI Docs: gui-guide/index.md
   - About: about.md
 theme: readthedocs
