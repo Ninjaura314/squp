@@ -51,3 +51,6 @@ create new items or update existing items in this interface, which has
 all fields consolidated, and updates those items automatically in the 
 ecommerce interface.
 
+## [Menus](./menus)
+
+A description of all of the menus in the menu bar of the application.
