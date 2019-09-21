@@ -5,7 +5,7 @@ def readme():
             return f.read()
 
 setup(name='squp',
-      version='0.1.6',
+      version='0.1.8',
       description='A backend engine for Squarespace that uses splinter/selenium for automated data entry',
       long_description=readme(),
       classifiers=[

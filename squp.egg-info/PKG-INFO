@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: squp
-Version: 0.1.6
+Version: 0.1.8
 Summary: A backend engine for Squarespace that uses splinter/selenium for automated data entry
 Home-page: https://github.com/Ninjaura314/squp
 Author: Jonathan Hoyle
