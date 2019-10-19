@@ -6,34 +6,34 @@ customers
 
 ![ShowHideImage](../../imgs/InventoryManageShow.png)
 
-1. Hidden Items
+1. **Hidden Items**
 
     Lists of every store and the items currently displayed from
     each one
     
-2. Show Button
+2. **Show Button**
 
     As the name implies, this button queues an
     item to be displayed on the online store in local memory
     
-3. Hide Button
+3. **Hide Button**
     
     As the name implies, this button queues an item to be hidden
     from the online store in local memory
     
-4. Apply Button
+4. **Apply Button**
 
     This button saves all of the local changes and prepares them
     for upload
     
-5. Online Items
+5. **Online Items**
 
     The currently visible items on the online storefront
     
-6. Upload Offline Items
+6. **Upload Offline Items**
     
     See [Upload Offline Items](./upload-offline)
     
-7. Stock Management
+7. **Stock Management**
 
     See [Stock Management](./stock-management)
